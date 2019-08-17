@@ -275,7 +275,15 @@ header.masthead h2 {
   position: relative;
   border-bottom: 1px solid #e9ecef;
 }
+.columns {
+  float: left;
+  width: 33.3%;
+  padding: 8px;
+}
 
+* {
+  box-sizing: border-box;
+}
 .floating-label-form-group input,
 .floating-label-form-group textarea {
   font-size: 1.5em;
